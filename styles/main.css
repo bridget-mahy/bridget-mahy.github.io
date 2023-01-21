@@ -1,0 +1,83 @@
+
+* {
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+a:link {
+  color: rgb(79, 158, 158);
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(79, 158, 158);
+}
+
+a:hover {
+  color:black;
+}
+
+div {
+  height: 20rem;
+  width: 100rem;
+  background-color: white;
+}
+
+aside {
+  padding: 0.5em;
+  max-width: 20%;
+  height: 100vh;
+  margin: 0;
+  background-color: aqua;
+  align-content: center;
+  }
+
+main {
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  max-width: 80vh;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header-img {
+  width: 100vh;
+  height: 10rem;
+  object-fit: cover;
+  margin: 0;
+}
+
+.nav-links {
+margin: auto;
+max-width: 70rem;
+height: 5em;
+padding: 0.5em;
+background-color:rgb(231, 215, 215);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: start;
+}
+
+.tech-blogposts {
+  padding-left: 2rem;
+}
+
+.footer {
+  align-items: flex-end;
+  padding-left: 2rem;
+}
+
+.nav-link {
+  font-size: 40px;
+}
