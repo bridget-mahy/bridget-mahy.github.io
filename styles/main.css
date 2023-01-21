@@ -8,6 +8,11 @@ body {
   flex-direction: row;
 }
 
+p {
+  font-size: 14;
+}
+
+
 a:link {
   color: rgb(79, 158, 158);
   text-decoration: none;
@@ -19,12 +24,6 @@ a:visited {
 
 a:hover {
   color:black;
-}
-
-div {
-  height: 20rem;
-  width: 100rem;
-  background-color: white;
 }
 
 aside {
@@ -40,8 +39,7 @@ main {
   margin: 0rem;
   display: flex;
   flex-direction: column;
-  max-height: 80vh;
-  max-width: 80vh;
+  max-width: 70%;
   justify-content: space-between;
 }
 
@@ -71,6 +69,7 @@ align-items: start;
 
 .tech-blogposts {
   padding-left: 2rem;
+  justify-self: flex-end;
 }
 
 .footer {
@@ -80,4 +79,17 @@ align-items: start;
 
 .nav-link {
   font-size: 40px;
+}
+
+.subheading {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: larger;
+  color:rgb(29, 59, 59);
+}
+
+.tech-img {
+ width: 50%;
+ height: auto;
+ border: 1px solid black;
 }
