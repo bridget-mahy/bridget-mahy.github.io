@@ -67,11 +67,6 @@ justify-content: space-evenly;
 align-items: start;
 }
 
-.tech-blogposts {
-  padding-left: 2rem;
-  justify-self: flex-end;
-}
-
 .footer {
   align-items: flex-end;
   padding-left: 2rem;
@@ -92,4 +87,11 @@ align-items: start;
  width: 50%;
  height: auto;
  border: 1px solid black;
+}
+
+/* BLOGPOST STYLES */
+
+.tech-blogposts {
+  padding-left: 2rem;
+  justify-self: flex-end;
 }
